@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "devSlide",
     description: "devSlide - Your Gateway to Seamless Presentations",
-    url: "https://slidelink.vercel.app/",
+    url: "https://devslide.vercel.app/",
     siteName: "devSlide",
     images: [
       {
-        url: "https://slidelink.vercel.app/og-image.jpg",
+        url: "https://devslide.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "devSlide Presentation Manager",

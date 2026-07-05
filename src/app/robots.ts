@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/collections/'],
     },
-    sitemap: 'https://slidelink.vercel.app/sitemap.xml',
+    sitemap: 'https://devslide.vercel.app/sitemap.xml',
   };
 }
