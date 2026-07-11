@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# devSlide
 
-## Getting Started
+> **Organize Your Slide Collections**
+> Modern Presentation Management for Academic Environments
 
-First, run the development server:
+![devSlide Screenshot](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80)
+*(Note: Replace this placeholder image with an actual screenshot of your application)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**devSlide** is a streamlined presentation management platform designed specifically for academic environments. It simplifies the workflow for both students and instructors by allowing users to create secure, password-protected collections for class presentations. With instant setup, real-time updates, and an intuitive interface, devSlide makes organizing and submitting slides easier than ever.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Quick Setup:** Create slide collections in under 30 seconds with an intuitive interface.
+- **No Registration:** Simple password-based access eliminates the need for complex registration processes.
+- **Live Updates:** See submissions as they come in with real-time updates and notifications.
+- **Auto Cleanup:** Collections are automatically deleted after 24 hours to keep the platform clean and organized.
+- **Secure Access:** Password-protected presentation collections ensure privacy and security.
 
-## Learn More
+## 🚀 Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Library:** [React 19](https://react.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Database:** PostgreSQL
+- **ORM:** [Prisma](https://www.prisma.io/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Project Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `@prisma/client`
+- `dotenv`
+- `lucide-react`
+- `next`
+- `react` & `react-dom`
+- `tailwindcss` (Dev)
+- `eslint` (Dev)
+- `typescript` (Dev)
 
-## Deploy on Vercel
+## 🛠️ How to Run Locally
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow these instructions to set up and run devSlide on your local machine.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm, pnpm, or yarn
+- PostgreSQL database
+
+### Installation Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd devSlide
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   Create a `.env` file in the root directory and add your database connection string:
+   ```env
+   DATABASE_URL="postgresql://user:password@localhost:5432/devslide?schema=public"
+   ```
+
+4. **Run database migrations:**
+   ```bash
+   npx prisma generate
+   npx prisma db push
+   ```
+   *(Alternatively, run `npx prisma migrate dev` if you are using migrations)*
+
+5. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+6. **Open the application:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser to see devSlide in action.
+
+## 🔗 Links
+
+- **Live Demo:** [https://devslide-jet.vercel.app/](https://devslide-jet.vercel.app/) 
+- **Repository:** [GitHub](https://github.com/ArafatSany7/devSlide)
+- **Issue Tracker:** [Report a Bug](https://github.com/ArafatSany7/devSlide/issues)
+
+---
+
