@@ -3,8 +3,7 @@
 > **Organize Your Slide Collections**
 > Modern Presentation Management for Academic Environments
 
-![devSlide Screenshot](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80)
-*(Note: Replace this placeholder image with an actual screenshot of your application)*
+
 
 ## 📖 Overview
 
